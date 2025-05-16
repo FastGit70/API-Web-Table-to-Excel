@@ -8,3 +8,7 @@ Excel Generation: pandas + openpyxl
 
 Install Dependencies
 pip install fastapi uvicorn requests beautifulsoup4 pandas openpyxl
+
+
+Run API
+uvicorn main:app --reload
